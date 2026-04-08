@@ -3,6 +3,9 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "engines": {
+    "node": ">=20.9.0"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -88,14 +91,4 @@
     "vite": "^5.4.19",
     "vitest": "^3.2.4"
   }
-}
-
-{
-  "name": "vite_react_shadcn_ts",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "engines": {
-    "node": ">=20.9.0"
-  },
 }
